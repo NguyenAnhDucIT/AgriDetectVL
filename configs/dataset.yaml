@@ -1,0 +1,44 @@
+dataset:
+  name: TLU-States
+  root: ./TluStates
+  image_size: 224
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+
+classes:
+  - america_apple
+  - america_grape
+  - america_orange
+  - australia_orange
+  - china_apple
+  - china_grape
+  - china_orange
+  - china-potato
+  - china-strawberry
+  - chinese_apple
+  - chinese_grape
+  - chinese_orange
+  - dalat-potato
+  - dalat-strawberry
+  - japan_apple
+  - japan_grape
+  - japan_orange
+  - korea_grape
+  - korea_orange
+  - netherlands_apple
+  - newzealand_apple
+  - other-potato
+  - southafrica_apple
+  - southafrica_grape
+  - vietnam_apple
+  - vietnam_grape
+  - vietnam_orange
+  - vietnamese_apple
+  - vietnamese_grape
+  - vietnamese_orange
+
+prompts:
+  - "a photo of {}"
+  - "an image of {}"
+  - "{} fruit from agriculture"
+  - "fresh {} in market"
